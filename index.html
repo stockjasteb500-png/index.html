@@ -1,584 +1,84 @@
 <!DOCTYPE html>
-<html lang="id" class="scroll-smooth">
+<html lang="id">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>GamingCell - Agen Pulsa, PPOB & Top Up Game Termurah</title>
-
-    <meta content="agen pulsa, ppob, top up game, gamingcell, server pulsa termurah, bisnis digital, jualan pulsa" name="keywords" />
-    <meta content="Gamingcell adalah platform digital terlengkap untuk agen pulsa, pembayaran PPOB, dan top up game dengan harga termurah dan transaksi 24 jam. Mulai bisnis digital Anda sekarang." name="description" />
-    <meta content="GamingCell" property="og:site_name" />
-    <meta content="GamingCell - Platform Agen Pulsa, PPOB & Top Up Game Termurah" property="og:title" />
-    <meta content="website" property="og:type" />
-    <meta content="suntiksosmed.kesug.com" property="og:url" />
-    <meta content="" property="og:image" />
-    <meta content="GamingCell adalah platform digital terlengkap untuk agen pulsa, pembayaran PPOB, dan top up game dengan harga termurah dan transaksi 24 jam." property="og:description">
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#1f2937" media="(prefers-color-scheme: dark)">
-
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    
-    
-    <style type="text/css">@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:800;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:800;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:800;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Plus Jakarta Sans;font-style:normal;font-weight:800;src:url(/cf-fonts/v/plus-jakarta-sans/5.0.18/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}</style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free WiFi Login</title>
     <style>
-        :root {
-            --primary: #175e80;
-            --secondary: #f59e0b;
-
-            /* Light mode */
-            --bg-primary: #f7f9fc;
-            --bg-secondary: #ffffff;
-            --text-primary: #1f2937;
-            --text-secondary: #4b5563;
-            --border-color: #e5e7eb;
-
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            -webkit-tap-highlight-color: transparent;
-            -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
-        }
-        html.dark {
-            --bg-primary: #111827;
-            --bg-secondary: #1f2937;
-            --text-primary: #f3f4f6;
-            --text-secondary: #9ca3af;
-            --border-color: #374151;
-        }
-
-        /* Helper color classes (ganti var() arbitrary Tailwind) */
-        .bg-primary-color { background-color: var(--bg-primary); }
-        .bg-secondary-color { background-color: var(--bg-secondary); }
-        .text-primary-color { color: var(--text-primary); }
-        .text-secondary-color { color: var(--text-secondary); }
-        .border-color { border-color: var(--border-color); }
-
-        /* Hover utilities untuk kelas kustom (biar bisa pakai "hover:...") */
-        .hover\:bg-primary-color:hover { background-color: var(--bg-primary); }
-        .hover\:bg-secondary-color:hover { background-color: var(--bg-secondary); }
-        .hover\:text-primary-color:hover { color: var(--text-primary); }
-        .hover\:text-secondary-color:hover { color: var(--text-secondary); }
-        .hover\:text-primary:hover { color: var(--primary); } /* untuk anchor yang pakai hover:text-primary */
-
-        /* Branding helpers */
-        .text-primary { color: var(--primary); }
-        .bg-primary { background-color: var(--primary); }
-
         body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--bg-primary);
-            color: var(--text-primary);
-            transition: background-color 0.3s ease, color 0.3s ease;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
         }
-
-        /* === BACKGROUND: DOT PATTERN === */
-        .background-pattern {
-            background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.08) 1px, transparent 0);
-            background-size: 2rem 2rem;
+        .login-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 300px;
         }
-        html.dark .background-pattern {
-            background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.05) 1px, transparent 0);
+        h2 { color: #1877f2; }
+        button {
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 20px;
         }
-
-        /* === INTERACTIVE GLOW (hero) === */
-        .interactive-glow::before {
-            content: '';
-            position: absolute;
-            z-index: 0;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background-image: radial-gradient(800px circle at var(--x, 50%) var(--y, 50%), rgba(23, 94, 128, 0.15), transparent 80%);
-            pointer-events: none;
-            transition: background-image 0.3s ease;
+        #prank-video {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            z-index: 9999;
         }
-        html.dark .interactive-glow::before {
-             background-image: radial-gradient(800px circle at var(--x, 50%) var(--y, 50%), rgba(23, 94, 128, 0.25), transparent 80%);
-        }
-
-        .navbar-scrolled {
-            background-color: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            border-bottom: 1px solid var(--border-color);
-        }
-        html.dark .navbar-scrolled { background-color: rgba(17, 24, 39, 0.8); }
-
-        .animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
-        .animate-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
-
-        .faq-question { cursor: pointer; }
-        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out; }
-        .faq-item.active .faq-answer { max-height: 200px; padding-top: 0.5rem; padding-bottom: 1rem; }
-        .faq-item.active .faq-icon { transform: rotate(180deg); }
-        .faq-icon { transition: transform 0.3s ease; }
     </style>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "WeKios",
-      "url": "https://wekios.com/",
-      "logo": "https://wekios.com/assets/logo_biru_baru.png",
-      "description": "Platform digital terlengkap untuk agen pulsa, pembayaran PPOB, dan top up game dengan harga termurah.",
-      "contactPoint": { "@type": "ContactPoint", "telephone": "+62-878-6048-6415", "contactType": "Customer Service" },
-      "sameAs": ["https://www.facebook.com/wekioscom", "https://www.instagram.com/wekioscom"]
-    }
-    </script>
 </head>
+<body>
 
-<body class="antialiased"><a href="suntiksosmed.kesug.com/cdn-cgi/content?id=vXukPszcoLft45dyQ5E4RPoIhHCnfbxFp14p_lvsnnE-1765933614.8782089-1.0.1.1-.W8LMgtB3wRRCsxh7T8F1QBxJOKF7mrrkfv.moFFq9I" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+    <div class="login-box" id="login-ui">
+        <h2>Free WiFi Public</h2>
+        <p>Klik tombol di bawah untuk terhubung ke jaringan.</p>
+        <button onclick="startPrank()">HUBUNGKAN SEKARANG</button>
+    </div>
 
-    <button id="theme-toggle" class="fixed bottom-5 right-5 z-50 w-12 h-12 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 flex items-center justify-center shadow-lg focus:outline-none">
-        <i id="theme-toggle-dark-icon" class="fas fa-moon"></i>
-        <i id="theme-toggle-light-icon" class="fas fa-sun hidden"></i>
-    </button>
+    <video id="prank-video" playsinline>
+        <source src="link_video_kamu.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
-    <header id="navbar" class="fixed top-0 left-0 right-0 z-40 py-4 transition-all duration-300 navbar-scrolled">
-        <div class="container mx-auto px-6">
-            <div class="flex justify-between items-center">
-                <a href="/"><img id="logoImage" src="/assets/logo_biru_baru.png" alt="GamingCell Logo" class="h-8 transition-all duration-300" /></a>
-                <nav class="hidden md:flex items-center space-x-8">
-                    <a href="#fitur" class="font-semibold text-secondary-color hover:text-primary">Fitur</a>
-                    <a href="#target" class="font-semibold text-secondary-color hover:text-primary">Untuk Siapa?</a>
-                    <a href="#testimoni" class="font-semibold text-secondary-color hover:text-primary">Testimoni</a>
-                    <a href="#faq" class="font-semibold text-secondary-color hover:text-primary">FAQ</a>
-                    <a href="/main/order" class="font-semibold text-secondary-color hover:text-primary">Beli Produk</a>
-                </nav>
-                <div class="hidden md:flex items-center space-x-4">
-                    <a href="/user/login" class="text-primary font-bold hover:opacity-80">Masuk</a>
-                    <a href="/user/register" class="bg-primary text-white font-bold py-2 px-6 rounded-full shadow-lg hover:bg-opacity-90 transition transform hover:scale-105">Daftar Gratis</a>
-                </div>
-                <button id="mobile-menu-button" class="md:hidden text-primary focus:outline-none"><i class="fas fa-bars fa-lg"></i></button>
-            </div>
-        </div>
-        <div id="mobile-menu" class="hidden md:hidden bg-secondary-color mt-3 mx-4 rounded-lg shadow-xl">
-             <a href="#fitur" class="block text-secondary-color hover:bg-primary-color px-5 py-3 font-semibold">Fitur</a>
-             <a href="#target" class="block text-secondary-color hover:bg-primary-color px-5 py-3 font-semibold">Untuk Siapa?</a>
-             <a href="#testimoni" class="block text-secondary-color hover:bg-primary-color px-5 py-3 font-semibold">Testimoni</a>
-             <a href="#faq" class="block text-secondary-color hover:bg-primary-color px-5 py-3 font-semibold">FAQ</a>
-             <a href="/main/order" class="block text-secondary-color hover:bg-primary-color px-5 py-3 font-semibold">Beli Produk</a>
-             <div class="border-t border-color my-2"></div>
-             <a href="/user/login" class="block text-secondary-color hover:bg-primary-color px-5 py-3 font-semibold">Masuk</a>
-             <a href="/user/register" class="block bg-primary text-white text-center rounded-b-lg px-5 py-3 font-bold">Daftar Gratis</a>
-        </div>
-    </header>
+    <script>
+        function startPrank() {
+            var video = document.getElementById("prank-video");
+            var ui = document.getElementById("login-ui");
 
-    <main>
-        <!-- HERO -->
-        <section class="relative pt-36 pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-secondary-color interactive-glow" id="hero-section">
-            <div class="container mx-auto px-6 relative z-10">
-                <div class="flex flex-col lg:flex-row items-center gap-12">
-                    <div class="lg:w-1/2 text-center lg:text-left">
-                        <h1 id="typed-container" class="text-3xl lg:text-5xl font-extrabold text-primary leading-tight mb-4"><span id="typed-text"></span></h1>
-                        <p class="text-lg text-secondary-color max-w-lg mx-auto lg:mx-0 mb-8">GamingCell adalah platform andalan untuk jualan pulsa, PPOB, & top up game dengan harga dasar termurah dan transaksi 24 jam.</p>
-                        <div class="flex justify-center lg:justify-start items-center gap-4 flex-wrap">
-                            <a href="/user/register" class="bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:opacity-90 transition transform hover:scale-105 flex items-center gap-2">Mulai Sekarang <i class="fas fa-arrow-right"></i></a>
-                            <a href="Mohon Maaf kita belum Menyediakan Aplikasi nya" target="_blank" class="bg-gray-800 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-black transition transform hover:scale-105 flex items-center gap-2"><i class="fab fa-google-play"></i> Download Aplikasi</a>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/2">
-                        <img src="/assets/mockupapp.png" alt="Mohon Maaf Kita belum ada aplikasi nya" class="w-full max-w-md mx-auto transform hover:scale-105 transition-transform duration-500">
-                    </div>
-                </div>
-            </div>
-        </section>
+            // Munculkan video & sembunyikan UI
+            ui.style.display = "none";
+            video.style.display = "block";
 
-        <!-- STATISTIK -->
-        <section id="statistik" class="py-20 bg-primary-color background-pattern">
-            <div class="container mx-auto px-6">
-                <div class="grid md:grid-cols-3 gap-8 text-center">
-                    <div class="animate-on-scroll">
-                        <h3 class="text-4xl lg:text-5xl font-extrabold text-primary" data-target="50000">0+</h3>
-                        <p class="text-secondary-color mt-2">Pengguna Terdaftar</p>
-                    </div>
-                    <div class="animate-on-scroll" style="transition-delay: 150ms;">
-                        <h3 class="text-4xl lg:text-5xl font-extrabold text-primary" data-target="4000000">0+</h3>
-                        <p class="text-secondary-color mt-2">Transaksi Berhasil</p>
-                    </div>
-                    <div class="animate-on-scroll" style="transition-delay: 300ms;">
-                        <h3 class="text-4xl lg:text-5xl font-extrabold text-primary" data-target="5000">0+</h3>
-                        <p class="text-secondary-color mt-2">Produk Digital</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FITUR -->
-        <section id="fitur" class="py-20 bg-secondary-color">
-            <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-primary">Satu Platform, Semua Solusi</h2>
-                    <p class="mt-4 text-lg text-secondary-color">Apapun kebutuhan digitalmu, kami punya solusinya. Cepat, murah, dan selalu bisa diandalkan.</p>
-                </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="bg-primary-color p-6 rounded-xl shadow-md border border-color animate-on-scroll">
-                        <div class="bg-blue-100 text-primary h-12 w-12 rounded-lg flex items-center justify-center text-2xl mb-4"><i class="fas fa-mobile-alt"></i></div>
-                        <h3 class="text-lg font-bold mb-2 text-primary">Pulsa & Paket Data</h3>
-                        <p class="text-secondary-color text-sm">Semua operator dengan harga agen, cocok untuk dipakai sendiri atau dijual lagi.</p>
-                    </div>
-                    <div class="bg-primary-color p-6 rounded-xl shadow-md border border-color animate-on-scroll" style="transition-delay: 150ms;">
-                        <div class="bg-blue-100 text-primary h-12 w-12 rounded-lg flex items-center justify-center text-2xl mb-4"><i class="fas fa-gamepad"></i></div>
-                        <h3 class="text-lg font-bold mb-2 text-primary">Top Up Game</h3>
-                        <p class="text-secondary-color text-sm">Ratusan game populer tersedia. Proses instan, pelanggan senang.</p>
-                    </div>
-                    <div class="bg-primary-color p-6 rounded-xl shadow-md border border-color animate-on-scroll" style="transition-delay: 300ms;">
-                        <div class="bg-blue-100 text-primary h-12 w-12 rounded-lg flex items-center justify-center text-2xl mb-4"><i class="fas fa-bolt"></i></div>
-                        <h3 class="text-lg font-bold mb-2 text-primary">Bayar Tagihan (PPOB)</h3>
-                        <p class="text-secondary-color text-sm">Bayar PLN, PDAM, BPJS, dan tagihan lainnya tanpa perlu keluar rumah.</p>
-                    </div>
-                    <div class="bg-primary-color p-6 rounded-xl shadow-md border border-color animate-on-scroll" style="transition-delay: 450ms;">
-                        <div class="bg-blue-100 text-primary h-12 w-12 rounded-lg flex items-center justify-center text-2xl mb-4"><i class="fas fa-qrcode"></i></div>
-                        <h3 class="text-lg font-bold mb-2 text-primary">QRIS Merchant</h3>
-                        <p class="text-secondary-color text-sm">Terima pembayaran dari semua e-wallet dan bank dengan satu QR code.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- TARGET -->
-        <section id="target" class="py-20 bg-primary-color background-pattern">
-            <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-primary">Dirancang untuk Siapa Saja</h2>
-                    <p class="mt-4 text-lg text-secondary-color">Baik untuk bisnis maupun kebutuhan pribadi, WeKios adalah solusi yang tepat.</p>
-                </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-secondary-color border border-color p-8 rounded-xl animate-on-scroll">
-                        <div class="text-primary text-3xl mb-4"><i class="fas fa-store"></i></div>
-                        <h3 class="text-xl font-bold mb-3 text-primary">Pemilik Konter & Warung</h3>
-                        <p class="text-secondary-color">Tambah keuntungan usahamu dengan menyediakan produk digital terlengkap.</p>
-                    </div>
-                    <div class="bg-secondary-color border border-color p-8 rounded-xl animate-on-scroll" style="transition-delay: 150ms;">
-                        <div class="text-primary text-3xl mb-4"><i class="fas fa-user-graduate"></i></div>
-                        <h3 class="text-xl font-bold mb-3 text-primary">Pelajar & Mahasiswa</h3>
-                        <p class="text-secondary-color">Dapatkan penghasilan tambahan dengan jualan pulsa atau top up game ke teman-temanmu.</p>
-                    </div>
-                    <div class="bg-secondary-color border border-color p-8 rounded-xl animate-on-scroll" style="transition-delay: 300ms;">
-                        <div class="text-primary text-3xl mb-4"><i class="fas fa-briefcase"></i></div>
-                        <h3 class="text-xl font-bold mb-3 text-primary">Karyawan & Ibu Rumah Tangga</h3>
-                        <p class="text-secondary-color">Penuhi kebutuhan digital keluarga dan dapatkan harga lebih hemat.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- TESTIMONI -->
-        <section id="testimoni" class="py-20 bg-secondary-color">
-            <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-primary">Dipercaya oleh Puluhan Ribu Pengguna</h2>
-                    <p class="mt-4 text-lg text-secondary-color">Jangan hanya percaya kata kami, lihat apa yang mereka katakan.</p>
-                </div>
-                <div id="testimonial-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
-            </div>
-        </section>
-
-        <!-- FAQ -->
-        <section id="faq" class="py-20 bg-primary-color background-pattern">
-            <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-primary">Pertanyaan Umum</h2>
-                    <p class="mt-4 text-lg text-secondary-color">Temukan jawaban dari pertanyaan yang paling sering diajukan.</p>
-                </div>
-                <div id="faq-container" class="max-w-3xl mx-auto space-y-4"></div>
-            </div>
-        </section>
-
-        <!-- BLOG -->
-        <section id="blog" class="py-20 bg-secondary-color">
-            <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-primary">Tips & Info Terbaru</h2>
-                    <p class="mt-4 text-lg text-secondary-color">Dapatkan wawasan terbaru untuk memaksimalkan keuntungan bisnismu bersama GamingCell</p>
-                </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-primary-color border border-color rounded-xl overflow-hidden group animate-on-scroll">
-                        <div class="p-6">
-                            <span class="text-sm font-bold text-primary">TIPS JUALAN</span>
-                            <h3 class="text-xl font-bold my-2 text-primary group-hover:text-primary transition">Tips Jualan Voucher Game Supaya Cepat Laku</h3>
-                            <p class="text-sm text-secondary-color mb-4">Beberapa strategi jitu untuk kamu yang baru memulai bisnis Voucher Game.</p>
-                            <a href="/blog/tips-jualan-voucher-game-supaya-cepat-laku" class="font-bold text-primary">Baca Selengkapnya <i class="fas fa-arrow-right ml-1"></i></a>
-                        </div>
-                    </div>
-                    <div class="bg-primary-color border border-color rounded-xl overflow-hidden group animate-on-scroll" style="transition-delay: 150ms;">
-                        <div class="p-6">
-                            <span class="text-sm font-bold text-primary">CEK ZONA KUOTA</span>
-                            <h3 class="text-xl font-bold my-2 text-primary group-hover:text-primary transition">Cara Cek Wilayah Zona Kuota</h3>
-                            <p class="text-sm text-secondary-color mb-4">Banyak pengguna kecewa karena kuota yang dibeli ternyata tidak bisa digunakan di lokasi mereka. Ini biasanya karena mereka membeli kuota zona/lokal tanpa tahu detail wilayahnya.</p>
-                            <a href="/blog/cara-cek-wilayah-zona-kuota-xl-indosat-dan-telkomsel" class="font-bold text-primary">Baca Selengkapnya <i class="fas fa-arrow-right ml-1"></i></a>
-                        </div>
-                    </div>
-                    <div class="bg-primary-color border border-color rounded-xl overflow-hidden group animate-on-scroll" style="transition-delay: 300ms;">
-                        <div class="p-6">
-                            <span class="text-sm font-bold text-primary">KODE AREA PLN</span>
-                            <h3 class="text-xl font-bold my-2 text-primary group-hover:text-primary transition">Kode Area PLN Indonesia</h3>
-                            <p class="text-sm text-secondary-color mb-4">Berikut adalah Kode Area Call Center PLN di Indonesia yang dapat kamu ketahui</p>
-                            <a href="/blog/kode-area-pln-indonesia" class="font-bold text-primary">Baca Selengkapnya <i class="fas fa-arrow-right ml-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA DOWNLOAD -->
-        <section class="py-8 bg-primary-color background-pattern">
-            <div class="container mx-auto px-4">
-                <div class="bg-secondary-color rounded-2xl shadow-lg border border-color p-8 md:p-12 flex flex-col lg:flex-row items-center gap-12">
-                    <div class="lg:w-1/2 text-center lg:text-left">
-                        <h2 class="text-3xl md:text-4xl font-extrabold text-primary">Mulai Bisnis dari Genggaman Anda</h2>
-                        <p class="mt-4 text-lg text-secondary-color max-w-md mx-auto lg:mx-0 mb-8">
-                            Aplikasi Tidak Tersedia
-                        </p>
-                        <div class="flex justify-center lg:justify-start items-center gap-4">
-                            <a href="https://play.google.com/store/apps/details?id=com.wekios.app" target="_blank" class="bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-black transition transform hover:scale-105 flex items-center gap-3">
-                                <i class="fab fa-google-play text-2xl"></i>
-                                <div>
-                                    <span class="text-xs block">GET IT ON</span>
-                                    <span class="text-lg font-bold">Google Play</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/2 flex justify-center lg:justify-end">
-                        <img src="/assets/mockupapp.png" alt="Aplikasi WeKios Mockup" class="w-full max-w-xs">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-secondary-color border-t border-color">
-        <div class="container mx-auto px-6 py-16">
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
-                <div class="col-span-2 lg:col-span-2">
-                    <a href="/" class="mb-4 inline-block">
-                        <img id="footerLogo" src="/assets/logo_biru_baru.png" alt="WeKios Logo" class="h-8">
-                    </a>
-                    <p class="text-sm text-secondary-color max-w-xs mb-6">
-                        Platform andalan untuk memulai dan mengembangkan bisnis digital Anda. Nikmati harga termurah, transaksi 24 jam, dan ribuan produk dalam satu aplikasi.
-                    </p>
-
-                    <h4 class="font-bold text-primary mb-3">Hubungi Kami</h4>
-                    <div class="flex space-x-5 text-2xl">
-                        <a href="https://wa.me/6285604686961" target="_blank" class="text-secondary-color hover:text-primary transition" aria-label="WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="https://www.instagram.com/yazdanmchc" target="_blank" class="text-secondary-color hover:text-primary transition" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://www.facebook.com/tidak ada" target="_blank" class="text-secondary-color hover:text-primary transition" aria-label="Facebook">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                        <a href="/cdn-cgi/l/email-protection#3740525c5e58445e5953585952445e5677505a565e5b1954585a" class="text-secondary-color hover:text-primary transition" aria-label="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-primary mb-4">Produk</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li><a href="#" class="text-secondary-color hover:text-primary transition">Pulsa & Paket Data</a></li>
-                        <li><a href="#" class="text-secondary-color hover:text-primary transition">Top Up Game</a></li>
-                        <li><a href="#" class="text-secondary-color hover:text-primary transition">Tagihan PPOB</a></li>
-                        <li><a href="#" class="text-secondary-color hover:text-primary transition">Token PLN</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-primary mb-4">Bantuan</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li><a href="/blog" class="text-secondary-color hover:text-primary transition">Blog & Artikel</a></li>
-                        <li><a href="/faq" class="text-secondary-color hover:text-primary transition">FAQ</a></li>
-                        <li><a href="/contact-us" class="text-secondary-color hover:text-primary transition">Kontak Kami</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-primary mb-4">Legal</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li><a href="/tos" class="text-secondary-color hover:text-primary transition">Syarat & Ketentuan</a></li>
-                        <li><a href="/privacy-policy" class="text-secondary-color hover:text-primary transition">Kebijakan Privasi</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-span-2 md:col-span-4 lg:col-span-1">
-                    <h4 class="font-bold text-primary mb-4">Download Aplikasi</h4>
-                    <div class="space-y-3">
-                        <a href="https://play.google.com/store/apps/details?id=com.wekios.app" target="_blank" class="bg-gray-800 text-white font-semibold py-2 px-4 rounded-lg shadow-lg hover:bg-black transition transform hover:scale-105 flex items-center gap-3 w-full">
-                            <i class="fab fa-google-play text-2xl"></i>
-                            <div>
-                                <span class="text-xs block">GET IT ON</span>
-                                <span class="font-bold">Google Play</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-12 border-t border-color pt-8 flex flex-col md:flex-row justify-between items-center">
-                <div class="text-sm text-secondary-color text-center md:text-left mb-4 md:mb-0">
-                    &copy; 2025 GamingCell. All rights reserved.
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" type="b3e97606edb7e03a71dabfe9-text/javascript"></script>
-    <script type="b3e97606edb7e03a71dabfe9-text/javascript">
-        document.addEventListener('DOMContentLoaded', () => {
-            // Theme Switcher
-            const themeToggleBtn = document.getElementById('theme-toggle');
-            const darkIcon = document.getElementById('theme-toggle-dark-icon');
-            const lightIcon = document.getElementById('theme-toggle-light-icon');
-            const logoImage = document.getElementById('logoImage');
-            const footerLogo = document.getElementById('footerLogo');
-            const lightLogo = '/assets/logo_biru_baru.png';
-            const darkLogo = '/assets/logo_putih_baru.png';
-
-            const applyTheme = (theme) => {
-                if (theme === 'dark') {
-                    document.documentElement.classList.add('dark');
-                    lightIcon.classList.remove('hidden');
-                    darkIcon.classList.add('hidden');
-                    logoImage.src = darkLogo;
-                    footerLogo.src = darkLogo;
-                } else {
-                    document.documentElement.classList.remove('dark');
-                    darkIcon.classList.remove('hidden');
-                    lightIcon.classList.add('hidden');
-                    logoImage.src = lightLogo;
-                    footerLogo.src = lightLogo;
-                }
-            };
-
-            const savedTheme = localStorage.getItem('theme');
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            applyTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
-
-            themeToggleBtn.addEventListener('click', () => {
-                const newTheme = document.documentElement.classList.toggle('dark') ? 'dark' : 'light';
-                localStorage.setItem('theme', newTheme);
-                applyTheme(newTheme);
-            });
-
-            // Mobile Menu
-            const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const mobileMenu = document.getElementById('mobile-menu');
-            mobileMenuButton.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
-            document.querySelectorAll('#mobile-menu a').forEach(link => link.addEventListener('click', () => mobileMenu.classList.add('hidden')));
-
-            // Typed.js
-            new Typed('#typed-text', {
-                strings: [
-                    "Satu Aplikasi untuk Semua Kebutuhan Digital.",
-                    "Harga Termurah untuk Keuntungan Maksimal.",
-                    "Transaksi Cepat, Aman, dan Online 24 Jam.",
-                    "Mulai Bisnis Digital Tanpa Modal Besar.",
-                    "Solusi Terbaik untuk Pemilik Konter.",
-                    "Jual Pulsa, PPOB, & Voucher Game di Satu Tempat.",
-                    "Ubah Transaksi Jadi Keuntungan Tiap Hari."
-                ],
-                typeSpeed: 50,
-                backSpeed: 25,
-                backDelay: 2500,
-                loop: true,
-                smartBackspace: true
-            });
-
-            // Interactive Glow
-            const heroSection = document.getElementById('hero-section');
-            if (heroSection) {
-                heroSection.addEventListener('mousemove', e => {
-                    const rect = heroSection.getBoundingClientRect();
-                    const x = e.clientX - rect.left;
-                    const y = e.clientY - rect.top;
-                    heroSection.style.setProperty('--x', `${x}px`);
-                    heroSection.style.setProperty('--y', `${y}px`);
-                });
+            // Putar video, buat fullscreen, dan volume maksimal
+            video.volume = 1.0; 
+            video.play();
+            
+            if (video.requestFullscreen) {
+                video.requestFullscreen();
+            } else if (video.webkitRequestFullscreen) {
+                video.webkitRequestFullscreen();
             }
-
-            // Testimonials
-            const reviews = [
-                { userName: "sunawar wiranata", score: 5, content: "Aplikasinya mantap harganya super murah buat jualan sangat menguntungkan." },
-                { userName: "randi setiawan", score: 5, content: "Udah pake apk ini sudah 3 tahun.. Untuk semua fitur sangat rekomen dah." },
-                { userName: "SIDIQ chanell", score: 5, content: "Topup nya cepet banget, cocok buat usaha jualan pulsa, baru Nemu APK termurah." },
-                { userName: "YMC DODDY", score: 5, content: "Aplikasi wekios tidak mengecewakan, pelayanan sangat cepat dan mudah." },
-                { userName: "Putra Ganteng", score: 5, content: "Aplikasi paling murah, tampilan oke, transaksi cepat, aplikasi terpercaya." },
-                { userName: "Widiya Sugiarti", score: 5, content: "Respon CS nya gercep banget, ramah, ok lah pastinya. Harga produk juga murah." }
-            ];
-            const getStarRating = score => '<i class="fas fa-star text-yellow-400"></i>'.repeat(score);
-            const testimonialContainer = document.getElementById('testimonial-container');
-            if (testimonialContainer) {
-                testimonialContainer.innerHTML = reviews.map(r => `
-                    <div class="bg-secondary-color p-6 rounded-xl shadow-md border border-color animate-on-scroll">
-                        <div class="flex items-center mb-4">
-                            <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-gray-700 text-primary dark:text-blue-300 flex items-center justify-center font-bold text-lg mr-4">${r.userName.charAt(0)}</div>
-                            <div>
-                                <h4 class="font-bold text-primary">${r.userName}</h4>
-                                <div class="text-sm text-yellow-500">${getStarRating(r.score)}</div>
-                            </div>
-                        </div>
-                        <p class="text-secondary-color">"${r.content}"</p>
-                    </div>
-                `).join('');
-            }
-
-            // FAQs
-            const faqs = [
-                { q: "Apakah pendaftaran di WeKios gratis?", a: "Ya, pendaftaran di WeKios 100% gratis. Anda bisa langsung mendaftar dan memulai transaksi tanpa biaya apapun." },
-                { q: "Bagaimana cara mengisi Stok?", a: "Kami menyediakan berbagai metode pengisian Stok, termasuk transfer bank (BCA, Mandiri, BRI, BNI) dan QRIS. Semua proses berjalan otomatis dan cepat." },
-                { q: "Apakah produknya lengkap?", a: "Sangat lengkap. Kami menyediakan pulsa semua operator, paket data, token PLN, voucher game, e-wallet, pembayaran tagihan, dan ribuan produk digital lainnya." },
-                { q: "Apakah transaksi aman?", a: "Keamanan adalah prioritas kami. Semua transaksi dienkripsi dan diproses melalui sistem yang handal untuk memastikan keamanan data dan Stok Anda." }
-            ];
-            const faqContainer = document.getElementById('faq-container');
-            if (faqContainer) {
-                faqContainer.innerHTML = faqs.map(faq => `
-                    <div class="faq-item bg-secondary-color border border-color rounded-lg animate-on-scroll">
-                        <div class="faq-question flex justify-between items-center p-5">
-                            <h3 class="font-semibold text-primary">${faq.q}</h3>
-                            <i class="fas fa-chevron-down faq-icon text-primary"></i>
-                        </div>
-                        <div class="faq-answer px-5 text-secondary-color">
-                            <p>${faq.a}</p>
-                        </div>
-                    </div>
-                `).join('');
-                document.querySelectorAll('.faq-question').forEach(item => item.addEventListener('click', () => item.parentElement.classList.toggle('active')));
-            }
-
-            // Animate on Scroll & Number Counter
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('is-visible');
-                        const counter = entry.target.querySelector('[data-target]');
-                        if (counter && !counter.classList.contains('animated')) {
-                            counter.classList.add('animated');
-                            const target = +counter.getAttribute('data-target');
-                            let current = 0;
-                            const increment = Math.ceil(target / 100);
-                            const updateCounter = () => {
-                                if (current < target) {
-                                    current += increment;
-                                    if (current > target) current = target;
-                                    counter.innerText = current.toLocaleString('id-ID') + '+';
-                                    requestAnimationFrame(updateCounter);
-                                }
-                            };
-                            updateCounter();
-                        }
-                    }
-                });
-            }, { threshold: 0.1 });
-
-            document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
-        });
+        }
     </script>
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="b3e97606edb7e03a71dabfe9-|49" defer></script></body>
+</body>
 </html>
